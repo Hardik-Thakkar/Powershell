@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+
+;Microsoft PowerToys PDF Preview Handler Fix for Outlook 32-bit
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\PreviewHandlers]
+"{07665729-6243-4746-95b7-79579308d1b2}"="Pdf Preview Handler"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{07665729-6243-4746-95b7-79579308d1b2}]
+"DisplayName"="Pdf Preview Handler"
+@="Microsoft.PowerToys.PreviewHandler.Pdf.PdfPreviewHandler"
+"AppID"="{6d2b5079-2f0b-48dd-ab7f-97cec514d30b}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{07665729-6243-4746-95b7-79579308d1b2}\Implemented Categories]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{07665729-6243-4746-95b7-79579308d1b2}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+@=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{07665729-6243-4746-95b7-79579308d1b2}\InprocServer32]
+@="C:\\Program Files\\PowerToys\\modules\\FileExplorerPreview\\PowerToys.PdfPreviewHandler.comhost.dll"
+"Assembly"="PowerToys.PdfPreviewHandler, Version=v0.53.1.0, Culture=neutral"
+"Class"="Microsoft.PowerToys.PreviewHandler.Pdf.PdfPreviewHandler"
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{07665729-6243-4746-95b7-79579308d1b2}\InprocServer32\v0.53.1.0]
+"Assembly"="PowerToys.PdfPreviewHandler, Version=v0.53.1.0, Culture=neutral"
+"Class"="Microsoft.PowerToys.PreviewHandler.Pdf.PdfPreviewHandler"
