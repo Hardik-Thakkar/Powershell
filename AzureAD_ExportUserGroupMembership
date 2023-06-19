@@ -1,0 +1,10 @@
+Connect-AzureAD
+
+$UPN = "UserPrincipleName"
+
+$Path = "C:\Scripts\" + '$UPN' + "GroupMembership".csv
+
+$SourceUser = Get-AzureADUser -Filter "UserPrincipalName eq '$UPN'"
+$SourceMemberships = Get-AzureADUserMembership -ObjectId $SourceUser.ObjectId | Where-object { $_.ObjectType -eq "Group" }
+
+$SourceMemberships | Select ObjectId, ObjectType, DisplayName, MailNickName | Export-csv -path $Path
