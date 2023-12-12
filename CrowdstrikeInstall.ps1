@@ -1,6 +1,6 @@
 ﻿# Update these variables as needed
-$CID = "F89D36CF691E4FF4B4F0DE233B9965AA-14"
-$SensorShare = "https://rightclickinc-my.sharepoint.com/:u:/g/personal/stephon_rclick_com/EVc0_6R9b9lKnv37fQvZyxYBvNHREBZCo2hoOJNANShpLQ?download=1"
+$CID = "CID"
+$SensorShare = "Setup URL"
 
 # The sensor is copied to the following directory
 $SensorLocal = "C:\Temp\WindowsSensor.MaverickGyr.exe"
