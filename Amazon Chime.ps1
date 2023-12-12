@@ -1,7 +1,7 @@
 $SWPath = "$env:HOMEDRIVE\Software\Amazon\Chime.exe"
 $SWDir = "$env:HOMEDRIVE\Software\Amazon\"
 $app = "Amazon Chime"
-$Download = "https://rightclickinc.sharepoint.com/:u:/s/Software/EQ3I4w6jH3RPqoXHfUIVMmoBovrtx--Ym_sPUMCy9avMvQ?download=1"
+$Download = "Setup URL"
 <#
   Change the information above to fit your needs. Following this, everything should work.
   To Install the latest Version change the $Download to ('https://clients.chime.aws/win/latest') 
