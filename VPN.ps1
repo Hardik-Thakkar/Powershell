@@ -19,8 +19,8 @@ $vpnconnection = Get-VpnConnection -AllUserConnection
 Function AddVPN
 {
 $vpnconnection = Get-VpnConnection -AllUserConnection
-$SFVPN = Add-VpnConnection -Name "SF VPN" -ServerAddress "sfv.theconcordgroup.com" -TunnelType SSTP -EncryptionLevel Optional -SplitTunneling -AuthenticationMethod MSChapv2 -AllUserConnection -RememberCredential -PassThru -UseWinlogonCredential
-$NBVPN = Add-VpnConnection -Name "NB VPN" -ServerAddress "v.theconcordgroup.com" -TunnelType SSTP -EncryptionLevel Optional -SplitTunneling -AuthenticationMethod MSChapv2 -AllUserConnection -RememberCredential -PassThru -UseWinlogonCredential
+$SFVPN = Add-VpnConnection -Name "SF VPN" -ServerAddress "VPN HOST" -TunnelType SSTP -EncryptionLevel Optional -SplitTunneling -AuthenticationMethod MSChapv2 -AllUserConnection -RememberCredential -PassThru -UseWinlogonCredential
+$NBVPN = Add-VpnConnection -Name "NB VPN" -ServerAddress "VPN HOST - X.CONTOSO.COM" -TunnelType SSTP -EncryptionLevel Optional -SplitTunneling -AuthenticationMethod MSChapv2 -AllUserConnection -RememberCredential -PassThru -UseWinlogonCredential
 
 	foreach ($vpn in $vpnconnection)
 	{
