@@ -23,6 +23,6 @@ reg add HKLM\Software\TrendMicro\PC-cillinNTCorp\CurrentVersion\Misc /v AllowUni
 }
 
 ## Uninstall TrendMicro
-Start-Process "\\hfchqrole1\ofcscan\AutoPcc.exe" -ArgumentList '/S', '/v', '/qn' 
+Start-Process "\\dc1\ofcscan\AutoPcc.exe" -ArgumentList '/S', '/v', '/qn' 
 
 
