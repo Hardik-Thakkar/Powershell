@@ -1,7 +1,7 @@
 ﻿    $softWarePath = "$env:HOMEDRIVE\Software\Microsoft\LAPS\LAPSx64.msi"
     $softWareDir = "$env:HOMEDRIVE\Software\Microsoft\LAPS"
     $app = "Local Administrator Password Solution"
-    $downloadLink = "https://rightclickinc.sharepoint.com/:u:/s/Software/EepcNXYCws5DsCC2KAAhUBoBBIUnJ7UfduRiJ78xn-kSKg?download=1"
+    $downloadLink = "https://contoso.sharepoint.com/:u:/s/Software/EepcNXYCws5DsCC2KAAhUBoBBIUnJ7UfduRiJ78xn-kSKg?download=1"
     <#
       Change the information above to fit your needs. Following this, everything should work.
     #>
