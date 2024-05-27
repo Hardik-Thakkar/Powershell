@@ -69,7 +69,7 @@ function InstallCrowdStrike {
 Write-Host "Installing Crowdstrike"
    # Update these variables as needed
 $CID = "F89D36CF691E4FF4B4F0DE233B9965AA-14"
-$SensorShare = "https://rightclickinc-my.sharepoint.com/:u:/g/personal/stephon_rclick_com/EVc0_6R9b9lKnv37fQvZyxYBvNHREBZCo2hoOJNANShpLQ?download=1"
+$SensorShare = "https://contoso.sharepoint.com/:u:/g/personal/stephon_rclick_com/EVc0_6R9b9lKnv37fQvZyxYBvNHREBZCo2hoOJNANShpLQ?download=1"
 
 # The sensor is copied to the following directory
 $SensorLocal = "C:\Temp\WindowsSensor.MaverickGyr.exe"
@@ -100,7 +100,7 @@ Write-Host "Installing Sonicwall VPN"
 $softWarePath = "$env:HOMEDRIVE\Software\Sonicwall\SWGBVPN.exe"
 $softWareDir = "$env:HOMEDRIVE\Software\Sonicwall\"
 $app = "Global VPN CLient"
-$downloadLink ="https://rightclickinc.sharepoint.com/:u:/s/Software/EWrqD23HYI1HrskD0xrojYoBKT7MdZ_B7TX-2rxb6uNzRw?download=1"
+$downloadLink ="https://contoso.sharepoint.com/:u:/s/Software/EWrqD23HYI1HrskD0xrojYoBKT7MdZ_B7TX-2rxb6uNzRw?download=1"
 <#
     Change the information above to fit your needs. Following this, everything should work.
 #>
@@ -160,7 +160,7 @@ catch{Write-Output $PSItem.ScriptStackTrace}
 }
 
 function InstallMERMM {
-   $hfcRMMdownload = "https://rightclickinc.sharepoint.com/:u:/s/clients/EaF_oyjmqsJHiK0q4PEV8xEBOIKgoRTsCpv3HJx3-cGz8Q?download=1"
+   $hfcRMMdownload = "https://contoso.sharepoint.com/:u:/s/clients/EaF_oyjmqsJHiK0q4PEV8xEBOIKgoRTsCpv3HJx3-cGz8Q?download=1"
 $dtExtPath = "$env:SystemDrive\MERMM\"
 $scriptPath = "$env:SystemDrive\MERMM\Irvine\directsetup\setup_auto2.bat"
 $zipPath = "$env:SystemDrive\MERMM\Irvine.zip"
