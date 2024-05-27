@@ -1,6 +1,6 @@
 Connect-MsolService
 
-$Mailboxes = Get-Content "C:\Scripts\CPTGroup.csv"
+$Mailboxes = Get-Content "C:\Scripts\contoso.csv"
 
 ## Remote all the licenses 
 
