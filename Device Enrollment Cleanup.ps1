@@ -1,6 +1,6 @@
 ##This script checks for devices registered to AzureAD and removes them so you can successfully perform an AzureAD join. 
-# We recommend you backup your registry prior to running. We take no responisbility for the use of this script.
 
+# Make sure to workstation backup your registry prior to running.
 
 
 $sids = Get-ChildItem 'HKLM:\SOFTWARE\Microsoft\EnterpriseResourceManager\Tracked' -name |where-object {$_.Length -gt 25}
