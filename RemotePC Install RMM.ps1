@@ -1,4 +1,4 @@
-﻿$hfcRMMdownload = "https://rightclickinc.sharepoint.com/:u:/s/clients/EaF_oyjmqsJHiK0q4PEV8xEBOIKgoRTsCpv3HJx3-cGz8Q?download=1"
+﻿$hfcRMMdownload = "https://contoso.sharepoint.com/:u:/s/clients/EaF_oyjmqsJHiK0q4PEV8xEBOIKgoRTsCpv3HJx3-cGz8Q?download=1"
 $dtExtPath = "$env:SystemDrive\MERMM\"
 $scriptPath = "$env:SystemDrive\MERMM\Irvine\directsetup\setup_auto2.bat"
 $zipPath = "$env:SystemDrive\MERMM\Irvine.zip"
