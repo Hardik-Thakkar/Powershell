@@ -1,6 +1,6 @@
 Connect-ExchangeOnline
 
-$Mailboxes = Get-Content "C:\Scripts\CPTGroup.csv"
+$Mailboxes = Get-Content "C:\Scripts\contoso.csv"
 
 foreach ($mailbox in $Mailboxes) 
 {
