@@ -1,7 +1,7 @@
 softWarePath = "$env:HOMEDRIVE\Software\Kyocera\KXV4_PCL6.exe"
   $softWareDir = "$env:HOMEDRIVE\Software\Kyocera\"
   $app = "Kyocera KXV4 PCL6 Driver"
-  $downloadLink = "https://rightclickinc.sharepoint.com/:u:/s/clients/EUJVTEFDwj5Jrh2W6DR7KeIBG020voiGxdcbP3xZaZuyVQ?download=1"
+  $downloadLink = "https://contoso.sharepoint.com/:u:/s/clients/EUJVTEFDwj5Jrh2W6DR7KeIBG020voiGxdcbP3xZaZuyVQ?download=1"
     <#
       Change the information above to fit your needs. Following this, everything should work.
       #This is a driver install script, so the application installation information will be inaccurate - Needs Revision
