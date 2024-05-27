@@ -33,4 +33,4 @@ ForEach ($User in $Users) {
 
 Write-Host "Report is in c:\temp\MFAUsers.CSV"
 $Report | Select User, Name, MFAUsed, MFAMethod, PhoneNumber | Sort Name | Out-GridView
-$Report | Sort Name | Export-CSV -NoTypeInformation -Encoding UTF8 c:\Software\MFAUsers.csv
+$Report | Sort Name | Export-CSV -NoTypeInformation -Encoding UTF8 c:\temp\MFAUsers.CSV
