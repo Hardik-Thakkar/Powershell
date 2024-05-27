@@ -1,7 +1,7 @@
 ﻿$softWarePath = "$env:HOMEDRIVE\Software\Sonicwall\SWGBVPN.exe"
 $softWareDir = "$env:HOMEDRIVE\Software\Sonicwall\"
 $app = "Global VPN CLient"
-$downloadLink ="https://rightclickinc.sharepoint.com/:u:/s/Software/EWrqD23HYI1HrskD0xrojYoBKT7MdZ_B7TX-2rxb6uNzRw?download=1"
+$downloadLink ="https://contoso.sharepoint.com/:u:/s/Software/EWrqD23HYI1HrskD0xrojYoBKT7MdZ_B7TX-2rxb6uNzRw?download=1"
 <#
     Change the information above to fit your needs. Following this, everything should work.
 #>
